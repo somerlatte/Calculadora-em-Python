@@ -1,5 +1,5 @@
 name: Testes de Unidade Calculadora
-on: [push]
+on: [push, pull_request]
 jobs:
   Testes-calculadora:
     strategy:
