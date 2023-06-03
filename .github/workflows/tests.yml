@@ -12,12 +12,5 @@ jobs:
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: 'Testando Calculadora'
         uses: actions/checkout@v3
-      - name: 'Instalar dependências'
-        run: |
-          if ( "${{ matrix.os }}" == "macos-latest" ); then
-            python3 -m pip install pytest
-          else
-            pip install pytest
-          fi
       - run: pip install pytest
       - run: pytest
