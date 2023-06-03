@@ -12,5 +12,4 @@ jobs:
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: 'Testando Calculadora'
         uses: actions/checkout@v3
-      - run: pip install pytest
-      - run: pytest
+      - run: python3 -m unittest test_calculator.py
