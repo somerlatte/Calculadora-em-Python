@@ -1,4 +1,4 @@
-name: Testes de Unidade
+name: Testes de Unidade Calculadora
 on: [push]
 jobs:
   Testes-calculadora:
