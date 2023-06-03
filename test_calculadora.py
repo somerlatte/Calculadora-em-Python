@@ -25,4 +25,4 @@ def test_divisao():
 def test_divisao_por_zero():
     calculadora = Calculadora()
     resultado = calculadora.divisao(6, 0)
-    assert resultado == "Erro: divisão por zero"
+    assert resultado == "Erro: não é possível dividir por zero""
