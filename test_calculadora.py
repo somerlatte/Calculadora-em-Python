@@ -26,3 +26,8 @@ def test_divisao_por_zero():
     calculadora = Calculadora()
     resultado = calculadora.divisao(6, 0)
     assert resultado == "Erro: não é possível dividir por zero"
+    
+def test_fatorial():
+    calculadora = Calculadora()
+    resultado = calculadora.fatorial(5)
+    assert resultado == 120
