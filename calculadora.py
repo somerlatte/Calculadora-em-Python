@@ -16,3 +16,9 @@ class Calculadora:
             return a / b
         else:
             return "Erro: não é possível dividir por zero"
+        
+    def fatorial(self, n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * self.fatorial(n-1)
